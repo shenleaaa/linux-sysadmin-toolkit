@@ -1,0 +1,42 @@
+# Logs
+*.log
+logs/
+*.pid
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Configuration
+*.conf.local
+config/secrets.conf
+
+# Archives
+*.tar.gz
+*.zip
+*.tar
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+
+# Cache
+.cache/
+__pycache__/
+
+# Environment
+.env
+.env.local
+
+# Reports
+reports/
+*.html
